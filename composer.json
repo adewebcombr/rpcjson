@@ -1,0 +1,21 @@
+
+{
+    "name": "adewebcombr/rpcjson",
+    "description": "Comandos RPC BTC ",
+    "type": "library",
+    "license" : "GPL-3.0-or-later",
+    "author":[
+        {
+            "name":"adewebcombr",
+            "email":"adewebtecnologia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adewebcombr\\JsonRpc\\": "src/"
+        }
+    },
+    "require": {
+        "php" : ">=7.0"
+    }
+}
